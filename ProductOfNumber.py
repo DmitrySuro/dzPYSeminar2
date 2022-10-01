@@ -6,6 +6,5 @@
 user_number = int(input('Insert your number: '))
 product_user_number = 1
 for i in range(1, user_number + 1):
-    print(int(i), end=' , ')
     product_user_number *= int(i)
-print(product_user_number)
+    print(product_user_number, end=' , ')
